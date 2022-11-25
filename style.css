@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+#login-box{
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 5px;
+    padding: 50px;
+}
+#acc-num {
+	display: block;
+	width: 100%;
+	padding: 7px;
+	font-size: 16px;
+	border: 1px solid green;
+	background: crimson;
+	color: white;
+	border-radius: 4px;
+	outline: 0;
+	box-shadow: 2px 2px 10px black;
+	text-shadow: 1px 1px 10px blue;
+}
+#acc-pass{
+	display: block;
+	width: 100%;
+	padding: 7px;
+	font-size: 16px;
+	border: 1px solid green;
+	background: crimson;
+	color: white;
+	border-radius: 4px;
+	outline: 0;
+	box-shadow: 2px 2px 10px black;
+	text-shadow: 1px 1px 10px blue;
+}
+#login-btn {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	padding: 7px 20px;
+	background: red;
+	outline: 0;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	box-shadow: 2px 2px 5px black;
+}
+#box{}
+#open-box{}
+#total-balance {
+	text-align: center;
+	width: 400px;
+	height: 159px;
+	background-color: red;
+	color: white;
+	font-size: 25px;
+	border-radius: 8px;
+	margin: 20px auto;
+	padding: 23px 30px;
+}
+#total-balance h3{}
+#inc-dec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 115px;
+}
+#increement {
+	width: 450px;
+	text-align: center;
+	background: red;
+	padding: 15px 20px;
+	border-radius: 6px;
+	height: 300px;
+	margin-right: 189px;
+}
+#increement h2 {
+	font-size: 30px;
+	color: white;
+	padding: 20px 0;
+	text-shadow: 2px 2px 10px black;
+}
+#increement input {
+	width: 100%;
+	font-size: 20px;
+	padding: 5px 15px;
+	outline: 0;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 4px 4px 4px black;
+	display: block;
+	margin: 15px 0;
+}
+#increement button {
+	width: 124px;
+	font-size: 23px;
+	color: white;
+	background: green;
+	padding: 6px 15px;
+	border-radius: 5px;
+	border-color: black;
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+}
+#decreement{
+    width: 450px;
+	text-align: center;
+	background: red;
+	padding: 15px 20px;
+	border-radius: 6px;
+	height: 300px;
+	margin-left: 189px;
+}
+#decreement h2{
+    font-size: 30px;
+	color: white;
+	padding: 20px 0;
+	text-shadow: 2px 2px 10px black
+}
+#decreement input{
+    width: 100%;
+	font-size: 20px;
+	padding: 5px 15px;
+	outline: 0;
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 4px 4px 4px black;
+	display: block;
+	margin: 15px 0;
+}
+#decreement button{
+    width: 124px;
+	font-size: 23px;
+	color: white;
+	background: green;
+	padding: 6px 15px;
+	border-radius: 5px;
+	border-color: black;
+	border: 2px solid black;
+	box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+}
